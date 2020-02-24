@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TCarmine/botBasic#readme",
   "dependencies": {
+    "@types/restify": "^8.4.2",
     "botbuilder": "^4.7.2",
     "restify": "^8.5.1",
     "typescript": "^3.8.2"
