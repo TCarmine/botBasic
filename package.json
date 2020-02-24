@@ -1,0 +1,24 @@
+{
+  "name": "botbasic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCarmine/botBasic.git"
+  },
+  "author": "Carmine Tambascia <kappa85t@hotmail.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TCarmine/botBasic/issues"
+  },
+  "homepage": "https://github.com/TCarmine/botBasic#readme",
+  "dependencies": {
+    "botbuilder": "^4.7.2",
+    "restify": "^8.5.1",
+    "typescript": "^3.8.2"
+  }
+}
