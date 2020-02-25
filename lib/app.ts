@@ -22,9 +22,10 @@ server.post("/api/messages", (req,res)=>{
    adapter.processActivity(req,res, async(context)=>{
        if(context.activity.type === "message"){
            const state = conversationState.get(context);
-           await context.sendActivities(`You said ${context.activity.text}`);
-       }else{
-           await context.sendActivities(`${context.activity.type} event found`);
+           await context.sendActivity(`Echo: ${ context.activity.text }`);
+        // Continue with further processing.
+        }else{
+           await context.sendActivity(`${context.activity.type} event detected`);
        }
    });
 });
